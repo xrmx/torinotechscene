@@ -1,0 +1,13 @@
+---
+title: Evento di Esempio
+location: Posto Fighissimo, via Po 42
+date: 2015-12-06 20:00:00
+---
+
+Un evento di esempio, a titolo dimostrativo. Gli altri dovranno essere formattati nello stesso modo.
+
+Da notare:
+ * il formato della data, espresso come YYYY-MM-DD HH:MM:SS
+ * l'indirizzo della location
+
+Il formato adottato è il Markdown.

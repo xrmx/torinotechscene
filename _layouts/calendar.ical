@@ -20,18 +20,16 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
-{% for event in site.posts %}
-BEGIN:VEVENT
-DTSTART:{{ event.date | date_to_rfc822 }}
-DTSTAMP:{{ site.date }}
-UID:{{ event. }}@torinotechscene
+{% for event in site.posts %}BEGIN:VEVENT
+DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
+DTSTAMP:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
+UID:{{ event.date | date: "%Y%m%d" }}@torinotechscene
 CREATED:{{ site.time | date: '%s' }}
-DESCRIPTION:{{ event.content }}
 LAST-MODIFIED:{{ site.time | date: '%s'  }}
 LOCATION:{{ event.location }}
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:{{ event.title }}
-END:VEVENT
-{% endfor %}
+CLASS:PUBLIC
+END:VEVENT{% endfor %}
 END:VCALENDAR
