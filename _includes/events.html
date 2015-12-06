@@ -1,0 +1,55 @@
+<!-- About Section -->
+
+<!--
+    <section id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Eventi</h2>
+                    <h3 class="section-subheading text-muted">I prossimi appuntamenti in città.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        {% assign curDate = site.time | date: '%s' %}
+                        {% for event in site.posts %}
+                            {% assign postStartDate = event.date | date: '%s' %}
+                            {% if postStartDate >= curDate %}
+                                <li class="timeline-inverted">
+                                    <div class="timeline-image">
+                                        <h3>{{ event.date | date: '%B' }}</h3>
+                                        <h4 class="subheading">{{ event.date | date: '%d' }}</h4>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            {{ event.title }}
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">{{ event.content }}</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+<section id="events">
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-12">
+                                <h1>
+                                        Il progetto Torino Tech Scene è ancora in fase di "startup", alla ricerca di gruppi e realtà per iniziare a pubblicare contenuti.
+                                </h1>
+                                <h1>
+                                        Se vuoi contribuire, manda <a href="https://twitter.com/torinotechscene">un tweet</a> o una <a href="https://github.com/madbob/torinotechscene">pull request su GitHub</a>.
+                                </h1>
+                        </div>
+                </div>
+        </div>
+</section>
