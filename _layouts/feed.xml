@@ -8,12 +8,10 @@
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      </item>
-    {% endfor %}
+    {% assign curDate = site.time | date: '%s' %}{% for event in site.posts %}{% assign postStartDate = event.date | date: '%s' %}{% if postStartDate >= curDate %}<item>
+        <title>{{ event.title | xml_escape }}</title>
+        <description>{{ event.content | xml_escape }}</description>
+        <pubDate>{{ event.date | date_to_rfc822 }}</pubDate>
+      </item>{% endif %}{% endfor %}
   </channel>
 </rss>

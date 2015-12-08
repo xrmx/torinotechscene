@@ -20,7 +20,7 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
-{% for event in site.posts %}BEGIN:VEVENT
+{% assign curDate = site.time | date: '%s' %}{% for event in site.posts %}{% assign postStartDate = event.date | date: '%s' %}{% if postStartDate >= curDate %}BEGIN:VEVENT
 DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
 DTSTAMP:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
 UID:{{ event.date | date: "%Y%m%d" }}@torinotechscene
@@ -31,5 +31,5 @@ SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
-END:VEVENT{% endfor %}
+END:VEVENT{% endif %}{% endfor %}
 END:VCALENDAR

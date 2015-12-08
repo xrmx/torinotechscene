@@ -16,20 +16,21 @@
                         {% for event in site.posts %}
                             {% assign postStartDate = event.date | date: '%s' %}
                             {% if postStartDate >= curDate %}
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <h3>{{ event.date | date: '%B' }}</h3>
-                                        <h4 class="subheading">{{ event.date | date: '%d' }}</h4>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h3>{{ event.date | date: '%B' }}</h3>
+                                    <h4 class="subheading">{{ event.date | date: '%d' }}</h4>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <span class="date">{{ event.date | date: '%A %d %B %H:%M' }}</span>
+                                        <p>{{ event.title }}</p>
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            {{ event.title }}
-                                        </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">{{ event.content }}</p>
-                                        </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">{{ event.content }}</p>
                                     </div>
-                                </li>
+                                </div>
+                            </li>
                             {% endif %}
                         {% endfor %}
                     </ul>
