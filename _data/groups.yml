@@ -18,6 +18,7 @@
   description: Il primo CoderDojo di Torino
   url: http://coderdojotorino.it/
   fbpage: coderdojotorino
+  twitter: coderdojo_to
 
 - title: CoderDojo Torino2
   img: coderdojotorino2.png
@@ -25,6 +26,7 @@
   description: CoderDojo attivo a Torino Sud
   url: http://www.coderdojotorino2.it/
   source-eventbrite: 8085500065
+  twitter: CoderDojoTo2
 
 - title: CoderDojo UpTo
   img: coderdojoupto.png
@@ -39,6 +41,7 @@
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://torino.grusp.org/
   fbpage: PugTorino
+  twitter: PUGTorino
 
 - title: Torino JS
   img: torinojs.png
@@ -46,6 +49,7 @@
   description: Eventi occasionali su Javascript, NodeJS, IoT e tecnologie opensource
   url: http://torino.js.org/
   fbpage: torinojs
+  twitter: torinojs
 
 - title: FabLab Torino
   img: fablab.png
@@ -53,6 +57,7 @@
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://fablabtorino.org/
   source-eventbrite: 3147853804
+  twitter: Fablabtorino
 
 - title: DataBeers Torino
   img: databeers.png
@@ -60,3 +65,4 @@
   description: Meeting informali presso cui parlare di opendata, bigdata, analisi e visualizzazioni davanti ad una birra
   url: http://databeerstorino.tumblr.com/
   source-eventbrite: 6821104823
+  twitter: databeerstorino
