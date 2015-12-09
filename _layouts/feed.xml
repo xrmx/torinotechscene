@@ -10,6 +10,7 @@
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign curDate = site.time | date: '%s' %}{% for event in site.posts %}{% assign postStartDate = event.date | date: '%s' %}{% if postStartDate >= curDate %}<item>
         <title>{{ event.title | xml_escape }}</title>
+        <link>{{ event.link }}</link>
         <description>{{ event.content | xml_escape }}</description>
         <pubDate>{{ event.date | date_to_rfc822 }}</pubDate>
       </item>{% endif %}{% endfor %}

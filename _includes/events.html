@@ -1,6 +1,5 @@
 <!-- About Section -->
 
-<!--
     <section id="events">
         <div class="container">
             <div class="row">
@@ -13,7 +12,8 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
                         {% assign curDate = site.time | date: '%s' %}
-                        {% for event in site.posts %}
+                        {% assign counter = 0 %}
+                        {% for event in site.posts reversed %}
                             {% assign postStartDate = event.date | date: '%s' %}
                             {% if postStartDate >= curDate %}
                             <li class="timeline-inverted">
@@ -25,21 +25,38 @@
                                     <div class="timeline-heading">
                                         <span class="date">{{ event.date | date: '%A %d %B %H:%M' }}</span>
                                         <p>{{ event.title }}</p>
+                                        {% if event.host %}
+                                        <span class="host">Powered by {{ event.host }}</span>
+                                        {% endif %}
                                     </div>
                                     <div class="timeline-body">
                                         <p class="text-muted">{{ event.content }}</p>
+                                        {% if event.link %}
+                                        <a href="{{ event.link }}">Qui Maggiori Informazioni</a>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </li>
+                            {% assign counter = counter | plus: 1 %}
                             {% endif %}
                         {% endfor %}
                     </ul>
+                    {% if counter == 0 %}
+                    <div class="empty-events">
+                        <p class="emoticon">
+                          :-(
+                        </p>
+                        <p>
+                          Non ci sono eventi imminenti!
+                        </p>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </section>
--->
 
+<!--
 <section id="events">
         <div class="container">
                 <div class="row">
@@ -54,3 +71,4 @@
                 </div>
         </div>
 </section>
+-->

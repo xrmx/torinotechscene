@@ -1,5 +1,6 @@
 url: http://torinotechscene.it
 baseurl:
+timezone: Europe/Rome
 
 # Site settings
 title: Torino Tech Scene

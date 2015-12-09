@@ -51,9 +51,20 @@ function saveEvent($object) {
         /*
                 A YAML non sembrano piacere i due punti...
         */
-        $title = str_replace($object->title, ':', '');
+        $title = str_replace(':', '', $object->title);
 
-        $fulldate = date('Y-m-d G:i:s', $object->time);
+        /*
+                Duplico i newline per una migliore formattazione dei posts in homepage
+        */
+        $contents = str_replace("\n", "\n\n", $object->content);
+
+        /*
+                Per ignoti motivi, mettendo anche i secondi Jekyll trasforma
+                sempre tutte le date sulla timezone UTC.
+                Omettendoli, lascia i valori correnti.
+        */
+        $fulldate = date('Y-m-d G:i', $object->time);
+
         $groupname = $object->group['title'];
 
         $data =<<<DATA
@@ -62,9 +73,10 @@ title: $title
 location: $object->location
 date: $fulldate
 host: $groupname
+link: $object->url
 ---
 
-$object->content
+$contents
 
 DATA;
 

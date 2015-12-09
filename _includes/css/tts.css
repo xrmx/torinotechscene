@@ -1,9 +1,19 @@
+.timeline-heading {
+        margin-bottom: 20px;
+}
+
 .timeline-heading p {
         font-size: 2em;
         font-weight: bold;
+        line-height: 1em;
 }
 
 .timeline-heading .date {
+        font-size: 1em;
+        color: #fec503;
+}
+
+.timeline-heading .host {
         font-size: 1em;
         color: #fec503;
 }
@@ -45,6 +55,18 @@
         text-align: center;
         padding: 25px;
         height: 100px;
+}
+
+.empty-events {
+        text-align: center;
+}
+
+.empty-events .emoticon {
+        font-size: 10em;
+}
+
+.empty-events p {
+        font-size: 4em;
 }
 
 #faq a {
