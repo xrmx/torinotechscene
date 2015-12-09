@@ -53,3 +53,10 @@
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://fablabtorino.org/
   fbpage: fablabtorino
+
+- title: DataBeers Torino
+  img: databeers.png
+  category: OpenData
+  description: Meeting informali presso cui parlare di opendata, bigdata, analisi e visualizzazioni davanti ad una birra
+  url: http://databeerstorino.tumblr.com/
+  source-eventbrite: 6821104823
