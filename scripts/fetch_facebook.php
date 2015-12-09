@@ -7,21 +7,7 @@
         php scripts/fetch_facebook.php
 */
 
-function doGet($url) {
-        $curl = curl_init();
-        curl_setopt_array($curl, array(
-                CURLOPT_RETURNTRANSFER => 1,
-                CURLOPT_URL => $url,
-                CURLOPT_USERAGENT => 'TorinoTechScene'
-        ));
-
-        $resp = curl_exec($curl);
-        curl_close($curl);
-        return $resp;
-}
-
 require_once('utils.php');
-require_once('config.php');
 
 $url = sprintf("https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&grant_type=client_credentials", $conf['facebook']['client_id'], $conf['facebook']['client_secret']);
 $resp = doGet($url);
