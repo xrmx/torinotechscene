@@ -11,3 +11,7 @@ then
 fi
 
 jekyll build
+
+php scripts/post_twitter.php
+
+date > lastupdate.txt

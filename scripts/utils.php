@@ -23,6 +23,16 @@ function readHostedGroups() {
         return $data;
 }
 
+function groupByName($groupname) {
+        $groups = readHostedGroups();
+
+        foreach($groups as $group)
+                if ($group['title'] == $groupname)
+                        return $group;
+
+        return null;
+}
+
 /*
         Preso da
         http://stackoverflow.com/questions/2955251/php-function-to-make-slug-url-string#2955878
@@ -38,6 +48,38 @@ function slugify($text) {
                 return 'n-a';
 
         return $text;
+}
+
+function eventMetadata($filename) {
+        $contents = file('_posts/' . $filename);
+
+        $parsable = [];
+
+        for($i = 1; $i < count($contents); $i++) {
+                if (substr($contents[$i], 0, 3) == '---')
+                        break;
+
+                $parsable[] = $contents[$i];
+        }
+
+        return Yaml::parse(join('', $parsable));
+}
+
+function futureEvents() {
+        $today = date('Y-m-d');
+        $todaylen = strlen($today);
+        $files = array_diff(scandir('_posts/'), ['..', '.']);
+
+        $ret = [];
+
+        foreach($files as $f) {
+                if (strncmp($today, $f, $todaylen) > 0)
+                        continue;
+
+                $ret[] = eventMetadata($f);
+        }
+
+        return $ret;
 }
 
 function saveEvent($object) {
