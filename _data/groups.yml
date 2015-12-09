@@ -24,14 +24,14 @@
   category: CoderDojo
   description: CoderDojo attivo a Torino Sud
   url: http://www.coderdojotorino2.it/
-  fbpage: CoderDojoTorino2
+  source-eventbrite: 8085500065
 
 - title: CoderDojo UpTo
   img: coderdojoupto.png
   category: CoderDojo
   description: Il più recente CoderDojo a Torino
   url: http://www.coderdojoupto.com/
-  fbpage: CoderDojoUpTo-1597966893810983
+  source-eventbrite: 8510744081
 
 - title: PUG Torino
   img: pugto.png
@@ -52,7 +52,7 @@
   category: Making
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://fablabtorino.org/
-  fbpage: fablabtorino
+  source-eventbrite: 3147853804
 
 - title: DataBeers Torino
   img: databeers.png
