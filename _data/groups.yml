@@ -11,3 +11,45 @@
   description: Collettivo informale principalmente dedicato all'organizzazione dell'edizione torinese del Linux Day
   url: http://linuxdaytorino.org/
   fbpage: LinuxDayTorino
+
+- title: CoderDojo Torino
+  img: coderdojotorino.png
+  category: CoderDojo
+  description: Il primo CoderDojo di Torino
+  url: http://coderdojotorino.it/
+  fbpage: coderdojotorino
+
+- title: CoderDojo Torino2
+  img: coderdojotorino2.png
+  category: CoderDojo
+  description: CoderDojo attivo a Torino Sud
+  url: http://www.coderdojotorino2.it/
+  fbpage: CoderDojoTorino2
+
+- title: CoderDojo UpTo
+  img: coderdojoupto.png
+  category: CoderDojo
+  description: Il più recente CoderDojo a Torino
+  url: http://www.coderdojoupto.com/
+  fbpage: CoderDojoUpTo-1597966893810983
+
+- title: PUG Torino
+  img: pugto.png
+  category: Programmazione
+  description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
+  url: http://torino.grusp.org/
+  fbpage: PugTorino
+
+- title: Torino JS
+  img: torinojs.png
+  category: Programmazione
+  description: Eventi occasionali su Javascript, NodeJS, IoT e tecnologie opensource
+  url: http://torino.js.org/
+  fbpage: torinojs
+
+- title: FabLab Torino
+  img: fablab.png
+  category: Making
+  description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
+  url: http://fablabtorino.org/
+  fbpage: fablabtorino

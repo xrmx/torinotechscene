@@ -34,6 +34,19 @@
         }
 }
 
+.portfolio-item {
+        margin-bottom: 50px;
+}
+
+.portfolio-item .portfolio-caption {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+        padding: 25px;
+        height: 100px;
+}
+
 #faq a {
         color: #888;
 }
