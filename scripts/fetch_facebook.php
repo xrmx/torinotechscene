@@ -37,7 +37,7 @@ foreach($groups as $group) {
 
                         $obj = (object)[
                                 'title' => $event->name,
-                                'content' => $event->description,
+                                'content' => isset($event->description) ? $event->description : '',
                                 'time' => strtotime($event->start_time),
                                 'location' => $location,
                                 'url' => sprintf('https://www.facebook.com/events/%s/', $event->id),

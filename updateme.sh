@@ -10,7 +10,7 @@ then
 	source /usr/local/rvm/scripts/rvm
 fi
 
-jekyll build
+jekyll build --future
 
 php scripts/post_twitter.php
 
