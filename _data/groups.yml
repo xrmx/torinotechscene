@@ -54,7 +54,7 @@
 - title: FabLab Torino
   img: fablab.png
   category: Making
-  description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
+  description: Il PHP Users Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://fablabtorino.org/
   source-eventbrite: 3147853804
   twitter: Fablabtorino
@@ -73,3 +73,10 @@
   description: Associazione per la promozione di attività culturali scientifico/tecnologiche
   url: http://www.mupin.it/
   twitter: Mupin_It
+
+- title: JUG Torino
+  img: jugto.png
+  category: Programmazione
+  description: Il Java Users Group (JUG) di Torino organizza incontri occasionali per approfondire le ultime novità sullo sviluppo con Java (e non solo!)
+  url: http://jugtorino.it/
+  twitter: jugtorino
