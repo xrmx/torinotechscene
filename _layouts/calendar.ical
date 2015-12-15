@@ -24,12 +24,13 @@ END:VTIMEZONE
 DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
 DTSTAMP:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
 UID:{{ event.date | date: "%Y%m%d" }}@torinotechscene
-CREATED:{{ site.time | date: '%s' }}
-LAST-MODIFIED:{{ site.time | date: '%s'  }}
+CREATED:{{ site.time | date: "%Y%m%dT%H%M00Z" }}
+LAST-MODIFIED:{{ site.time | date: "%Y%m%dT%H%M00Z"  }}
 LOCATION:{{ event.location }}
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
-END:VEVENT{% endif %}{% endfor %}
+END:VEVENT{% endif %}
+{% endfor %}
 END:VCALENDAR
