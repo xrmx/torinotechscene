@@ -80,3 +80,17 @@
   description: Il Java Users Group (JUG) di Torino organizza incontri occasionali per approfondire le ultime novità sullo sviluppo con Java (e non solo!)
   url: http://jugtorino.it/
   twitter: jugtorino
+
+- title: Meetup Bitcoin Torino
+  img: bitcoin.png
+  category: Cultura
+  description: Un gruppo di appassionati del settore di cryptovalute e reti distribuite che si ritrova per condividere informazioni, progetti e ricerche
+  url: http://www.meetup.com/Meetup-Bitcoin-Torino/
+  source-meetup: Meetup-Bitcoin-Torino
+
+- title: Wordpress Meetup Torino
+  img: wordpress.png
+  category: Programmazione
+  description: Il posto dove andare se usi WordPress, vorresti usare WordPress ma non sai da dove iniziare, ti hanno fatto un sito in WordPress ma non lo sai usare.
+  url: http://www.meetup.com/WordPress-Meetup-Torino/
+  source-meetup: WordPress-Meetup-Torino
