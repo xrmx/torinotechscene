@@ -94,3 +94,10 @@
   description: Il posto dove andare se usi WordPress, vorresti usare WordPress ma non sai da dove iniziare, ti hanno fatto un sito in WordPress ma non lo sai usare.
   url: http://www.meetup.com/WordPress-Meetup-Torino/
   source-meetup: WordPress-Meetup-Torino
+
+- title: Torino HackNight
+  img: hacknight.png
+  category: Programmazione
+  description: Gruppo di lavoro periodico per lavorare insieme su progetti opensource
+  url: https://toolboxcoworking.wordpress.com/
+  source-eventbrite: 9053329779
