@@ -102,3 +102,26 @@
   url: https://torino.hacknight.it
   source-eventbrite: 9053329779
   twitter: tohacknight
+  
+- title: Torino IoT Meetup
+  img: iot.png
+  category: Making
+  description: Building a community to discuss and share ideas on IoT technologies, Design, Open-source, maker culture etc... Come and visit us at Casa Jasmina.
+  url: http://www.meetup.com/Torino-IoT-Meetup/
+  source-meetup: Torino-IoT-Meetup
+
+- title: Torino Scala Programming Big Data Meetup
+  img: scala.png
+  category: Programmazione
+  description: Questo gruppo è per tutti coloro che usano abitualmente o vogliono imparare il linguaggio di programmazione Scala e affacciarsi nel mondo dei big data.
+  url: http://www.meetup.com/Torino-Scala-Programming-Big-Data-Meetup/
+  source-meetup: Torino-Scala-Programming-Big-Data-Meetup
+
+- title: Toolbox Coworking
+  img: toolbox.jpg
+  category: Cultura
+  description: Toolbox offre spazi, servizi e soluzioni per il lavoro autonomo, al centro di un'area strategica per lo sviluppo delle nuove professionalità a Torino.
+  url: https://toolboxcoworking.wordpress.com/
+  source-eventbrite: 2882655319
+  twitter: tlbxcoworking
+
