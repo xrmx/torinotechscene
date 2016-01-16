@@ -126,3 +126,10 @@
   source-eventbrite: 2882655319
   twitter: tlbxcoworking
 
+- title: Torino Coding Society
+  img: codingsociety.png
+  category: Programmazione
+  description: L'appuntamento mondano degli sviluppatori torinesi
+  url: http://torinocodingsociety.it/
+  source-eventbrite: 4690925219
+
