@@ -17,23 +17,33 @@ foreach($groups as $group) {
 		$resp = doGet($url);
 		$resp = json_decode($resp);
 
-		foreach($resp->results as $event) {
-			if (property_exists($event, 'venue'))
-				$location = sprintf('%s, %s', $event->venue->name, $event->venue->address_1);
-			else
-				$location = 'Sconosciuto';
+		/*
+			Qui si assume che un gruppo pubblichi un solo evento alla volta.
+			Se ne esiste più di uno, quando il primo dell'elenco sarà passato
+			(e dunque non apparirà più in questo elenco), implicitamente il
+			prossimo diventerà il primo della lista e sarà pubblicato.
+		*/
 
-			$obj = (object)[
-				'title' => $event->name,
-				'content' => $event->description,
-				'time' => $event->time / 1000,
-				'location' => $location,
-				'url' => $event->event_url,
-				'group' => $group
-			];
+		if (empty($resp->results))
+			continue;
 
-			saveEvent($obj);
-		}
+		$event = $resp->results[0];
+
+		if (property_exists($event, 'venue'))
+			$location = sprintf('%s, %s', $event->venue->name, $event->venue->address_1);
+		else
+			$location = 'Sconosciuto';
+
+		$obj = (object)[
+			'title' => $event->name,
+			'content' => $event->description,
+			'time' => $event->time / 1000,
+			'location' => $location,
+			'url' => $event->event_url,
+			'group' => $group
+		];
+
+		saveEvent($obj);
 	}
 }
 
