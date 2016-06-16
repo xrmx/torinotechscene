@@ -139,3 +139,10 @@
   description: PrestaShop è un software e-commerce open source dedicato a tecnologie innovative e studiato per fornire successo on-line a commercianti e sviluppatori. Desideriamo far crescere sempre di più la nostra comunità e raggiungere tutti gli appassionati di e-commerce.
   url: http://www.meetup.com/it-IT/PrestaShop-Torino-Ecommerce-Meetup/
   source-meetup: PrestaShop-Torino-Ecommerce-Meetup
+
+- title: Django Girls Turin
+  img: djangogirls.png
+  category: Programmazione
+  description: Workshop di programmazione per ragazze
+  url: https://djangogirls.org/turin
+  twitter: djangogirlsit
