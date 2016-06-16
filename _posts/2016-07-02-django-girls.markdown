@@ -1,7 +1,7 @@
 ---
 title: Django Girls Torino
 location: Toolbox Coworking, Via Agostino da Montefeltro, 2
-date: 2016-07-02 09:00:00
+date: 2016-07-02 09:00
 host: Django Girls Turin
 link: https://djangogirls.org/turin
 ---
