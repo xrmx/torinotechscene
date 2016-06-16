@@ -54,10 +54,15 @@ function eventMetadata($filename) {
         $contents = file('_posts/' . $filename);
 
         $parsable = [];
+        $in_header = false;
 
         for($i = 1; $i < count($contents); $i++) {
-                if (substr($contents[$i], 0, 3) == '---')
-                        break;
+                if (substr($contents[$i], 0, 3) == '---') {
+                        if ($in_header)
+                                break;
+                        $in_header = true;
+                        continue;
+                }
 
                 $parsable[] = $contents[$i];
         }
