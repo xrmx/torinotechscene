@@ -1,7 +1,7 @@
 ---
 title: Evento di Esempio
 location: Posto Fighissimo, via Po 42
-date: 2015-12-06 20:00:00
+date: 2015-12-06 20:00
 host: Nome del Gruppo
 link: http://postofighissimo.it/evento-di-esempio
 ---
