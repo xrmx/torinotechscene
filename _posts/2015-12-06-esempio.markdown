@@ -9,7 +9,7 @@ link: http://postofighissimo.it/evento-di-esempio
 Un evento di esempio, a titolo dimostrativo. Gli altri dovranno essere formattati nello stesso modo.
 
 Da notare:
- * il formato della data, espresso come YYYY-MM-DD HH:MM:SS
+ * il formato della data, espresso come YYYY-MM-DD HH:MM
  * l'indirizzo della location
 
 Il formato adottato è il Markdown.
