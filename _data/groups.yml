@@ -11,6 +11,7 @@
   description: Collettivo informale principalmente dedicato all'organizzazione dell'edizione torinese del Linux Day
   url: http://linuxdaytorino.org/
   fbpage: LinuxDayTorino
+  twitter: LinuxDayTorino
 
 - title: CoderDojo Torino
   img: coderdojotorino.png
@@ -95,6 +96,7 @@
   description: Il posto dove andare se usi WordPress, vorresti usare WordPress ma non sai da dove iniziare, ti hanno fatto un sito in WordPress ma non lo sai usare.
   url: http://www.meetup.com/WordPress-Meetup-Torino/
   source-meetup: WordPress-Meetup-Torino
+  twitter: wptorino
 
 - title: Torino HackNight
   img: tohacknight.jpg
