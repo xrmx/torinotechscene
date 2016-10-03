@@ -148,3 +148,18 @@
   description: Workshop di programmazione per ragazze
   url: https://djangogirls.org/turin
   twitter: djangogirlsit
+
+- title: Turin Web Performance Group
+  img: webperformance.png
+  category: Programmazione
+  description: Vediamo ogni mese qualche tecnica di ottimizzazione delle prestazioni di velocità di siti web lenti e delle best practice, in modo che i siti web che andrai a realizzare rispondano velocemente ai bisogni dei tuoi utenti.
+  url: http://www.meetup.com/it-IT/Turin-Web-Performance-Group/
+  source-meetup: Turin-Web-Performance-Group
+  twitter: trnwebperf
+
+- title: Machine Learning Meetup Torino
+  img: machinelearning.png
+  category: Programmazione
+  description: Attorno al mondo dell'intelligenza artificiale sta nascendo sempre più fermento, ora che tutte le grandi società tecnologiche la usano per potenziare l'efficacia dei propri algoritmi.
+  url: http://www.meetup.com/it-IT/Machine-Learning-TO/
+  source-meetup: Machine-Learning-TO
