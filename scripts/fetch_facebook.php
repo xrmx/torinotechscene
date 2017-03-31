@@ -11,19 +11,21 @@ require_once('utils.php');
 
 $url = sprintf("https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&grant_type=client_credentials", $conf['facebook']['client_id'], $conf['facebook']['client_secret']);
 $resp = doGet($url);
-
-$token = null;
-list($useless, $token) = explode('=', $resp);
-if ($token == null)
+$resp = json_decode($resp);
+if ($resp == null || isset($resp->access_token) = false)
         exit();
 
+$token = $resp->access_token;
 $groups = readHostedGroups();
 
 foreach($groups as $group) {
         if (isset($group['fbpage'])) {
                 $url = sprintf("https://graph.facebook.com/%s/events?access_token=%s", $group['fbpage'], $token);
+
                 $resp = doGet($url);
                 $resp = json_decode($resp);
+                if (isset($resp->data) == false)
+                        continue;
 
                 foreach($resp->data as $event) {
                         if (isset($event->place)) {
