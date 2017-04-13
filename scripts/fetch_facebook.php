@@ -12,7 +12,7 @@ require_once('utils.php');
 $url = sprintf("https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&grant_type=client_credentials", $conf['facebook']['client_id'], $conf['facebook']['client_secret']);
 $resp = doGet($url);
 $resp = json_decode($resp);
-if ($resp == null || isset($resp->access_token) = false)
+if ($resp == null || isset($resp->access_token) == false)
         exit();
 
 $token = $resp->access_token;
