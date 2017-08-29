@@ -107,7 +107,7 @@
   url: https://torino.hacknight.it
   source-eventbrite: 9053329779
   twitter: tohacknight
-  
+
 - title: Torino IoT Meetup
   img: iot.png
   category: Making
@@ -172,3 +172,12 @@
   description: Hai un progetto Open Source sul quale vorresti lavorare con altri? Avresti sempre voluto partecipare ad un progetto Open Source ma non l'hai mai fatto? Vorresti lavorare con altre persone per poterti scambiare i segreti del mestiere? Benvenuto!
   url: https://www.meetup.com/it-IT/open-source-saturday-torino/
   source-meetup: open-source-saturday-torino
+
+- title: Turn into Coders
+  img: turnintocoders.png
+  category: Coding Bootcamp
+  description: Diventa programmatore web: Turn into coders è un programma di formazione intensivo, di 8 settimane da urlo, che ti farà imparare JavaScript per bene e ti renderà capace di addentrarti nel mondo dei programmatori.
+  url: https://turnintocoders.it/
+  source-meetup: turn-into-coders
+  twitter: turnintocoders
+  fbpage: turnintocoders
