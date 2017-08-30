@@ -87,9 +87,6 @@ function saveEvent($object) {
         $date = date('Y-m-d', $object->time);
         $filename = sprintf('_posts/%s-%s.markdown', $date, $slug);
 
-        if (file_exists($filename))
-                return false;
-
         /*
                 A YAML non sembrano piacere i due punti...
         */
