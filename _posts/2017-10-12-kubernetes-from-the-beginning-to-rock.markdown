@@ -1,0 +1,28 @@
+---
+title: Kubernetes from the beginning to Rock! with CoreOS & Cognitio
+location: Toolbox, Via Agostino da Montefeltro, 2
+date: 2017-10-12 19:00
+host: CNCF Italy
+link: https://www.meetup.com/CNCF-Italy/events/243039837/
+---
+
+
+<p><b>What is CNCF? Cos'é CNCF?</b> <br></p>
+<p>CNCF is a branch of The Linux Foundation focused on Cloud Computing and modern scalable architectures. it's supporting tools like Kubernetes, Prometheus, containerd&nbsp;and so on. If you are using one of them or you are looking to know more about them, this is your meetup. Join us! hashtag #CNCFItaly on twitter.</p>
+<p><i>CNCF é un ramo della Linux Foundation focalizzato sul&nbsp;Cloud Computing, microservices ed infrastrutture scalability. Supprota progetti come Kubernetes, Opentracing, Rkt, CNI. Se stai utilizzando uno di questi&nbsp;tools o sei interessato a saperne di piú unisciti a noi!&nbsp;hashtag #CNCFItaly su twitter</i>&nbsp;.&nbsp;</p>
+<p><b>About the event (Riguardo l'evento)</b></p>
+<p>Kubernetes is the first project incubated by the Cloud Native Foundation. It come from Google as an open-source system for automating deployment, scaling, and management of containerized applications. It's one of the faster-growing projects on GitHub with a big community and network of meetups, events, and contributors with companies like Google, IBM, RedHat, CoreOS... During this event, we will have an overview of what an orchestrator is, why we need one and we will learn how and why Cognito, an Italian Startup uses it to support its business. After that, now that we know what it is we will listen about a use case from CoreOS one of the biggest company involved in the Kubernetes development and all the things related to containers.</p>
+<p><i>Kubernetes é il primo progetto ad essere stato incubato dalla Cloud Native Foundation. é un progetto iniziato da Google e donato alla comunitá opensource come sistema di automazione, rilascio, scalabilitá e gestione di containers. é uno dei progetti con una maggiore crescitá su GitHub come comunitá e netowkr di meetups, eventi e contributors con aziende come Google, IBM, RedHat, CoreOS.. Durante questo evento riceveremo subito un overview su cos'é un orchestartore di container, perché ne dovremmo usare uno ma sopratutto impareremo da uno use case tutto Torinese, Cognito una startup di Torino ci spiegherá come e perché k8s.  <br>Dopo aver ricevuto un infarinatura su generale ascolteremo uno use case da parte di CoreOS una delle aziende piú grandi coinvolte nel progetto e piú in generale ció che riguarda i containers.</i></p>
+<p><b>7.00 - 7.45 Introduzione agli orchestratori di Container [ITA]</b></p>
+<p>I container sono ormai una realtà consolidata; semplificano la gestione dello stack di sviluppo, la distribuzione e l'assemblaggio di componenti software, la manutenzione dei sistemi in produzione. Ma allora a cosa servono gli orchestratori di container? E perchè qualcuno li ha definiti "la prima vera piattaforma cloud"? In questo talk parleremo di Kubernetes, l'orchestratore open source sviluppato da Google. Vedremo i principi alla base della sua implementazione, come funziona e come può migliorare il processo di sviluppo e deploy basato su container, sia in teoria che con una demo pratica.  <br></p>
+<p><b>7.45 - 8.30 Kubernetes, the CoreOS way [ENG]</b></p>
+<p>This talk will guide the audience through a short tour of a typical Kubernetes setup on top of a CoreOS stack. In particular, it will cover current practices related to a container-based production system including infrastructure setup (terraform), host provisioning (matchbox, ignition, torcx), security and updates (Container Linux, omaha, locksmith), kubernetes bootstrapping (systemd, rkt, bootkube), monitoring (prometheus) and higher level topics (kubelet, CNI, dex, etcd, operators)</p>
+<p><b>20.30-21.30 Networking, Pizza and Beers (Sponsored by <a href="https://cognitio.it/">Cognitio SRL</a>)</b>  <br></p>
+<p><b>The speakers</b></p>
+<p><img src="https://secure.meetupstatic.com/photos/event/5/1/f/4/600_464240980.jpeg" style="margin : 5px ; max-width : 700px ; max-height : 700px"></p>
+<p>Luca Bruno  <br><span>CoreOS Engineer, Debian Developer and enthusiast FLOSS supporter.  <br></span><a href="https://twitter.com/lucabruno">https://twitter.com/lucabruno</a></p>
+<p><img src="https://cognitio.it/images/team/cognitio-fabio.png" style="margin : 5px ; max-width : 700px ; max-height : 700px"></p>
+<p>Fabio Da Soghe  <br>Software engineer, da sempre appassionato di informatica, ha iniziato nel 1997 sviluppando videogiochi per poi passare in ambito business dove ha lavorato per lo più su backend web per varie aziende in vari settori. Nel 2012 fonda la Cognitio, scopre il cloud e i container e impara di nuovo tutto dall'inizio.  <br><a href="https://twitter.com/fabiodasoghe">https://twitter.com/fabiodasoghe</a></p>
+<p>Other Info (Altre informazioni)&nbsp;</p>
+<p>English in Italy? What's going on? This time the sessions will be in English but all the networking and QA will be in Italian. We took this decision because we will record them and in English, everybody will be able to enjoy&nbsp;them. Don't worry, we are going to have Pizza and beers as good Italian sponsored by CNCF.</p>
+<p><i>Inglese in Italia? Mi prendi in giro? Questa volta le sessioni saranno in inglese ma tutto il resto, networking e domande saranno in italiano. Abbiamo preso questa decisione perché registreremo tutte le sessioni e ci piacerebbe che tutto il mondo possa ascoltarle. Non sará sempre cosí, ma sappiamo che l'IT parla inglese e non sará un problema! Da buoni italiani pizza e birra per tutti a fine evento. Sponsorizzate dalla CNCF.</i></p>
