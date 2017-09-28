@@ -181,3 +181,11 @@
   source-meetup: turn-into-coders
   twitter: turnintocoders
   fbpage: turnintocoders
+  
+- title: Torino .NET user group
+  img: torinonet.png
+  category: Programmazione
+  description: Chiacchiere, spunti e approfondimenti su .NET Framework. Scambio di idee ed esperienze sulle tecnologie adottate in ambito professionale Microsoft e non, closed e open source.
+  url: https://www.meetup.com/it-IT/preview/Torino-NET-User-Group
+  source-meetup: Torino-NET-User-Group
+  twitter: TorinoNet
