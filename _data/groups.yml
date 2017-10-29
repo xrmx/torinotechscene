@@ -189,3 +189,10 @@
   url: https://www.meetup.com/it-IT/preview/Torino-NET-User-Group
   source-meetup: Torino-NET-User-Group
   twitter: TorinoNet
+
+- title: Agile Community Torino
+  img: agile.png
+  category: Programmazione
+  description: Community per la condivisione e la diffusione di un approccio Agile e Lean allo sviluppo di prodotti e servizi.
+  url: http://agile.to.it/
+  source-meetup: Agile-Community-Torino
