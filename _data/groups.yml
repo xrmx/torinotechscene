@@ -1,13 +1,11 @@
 - title: Officina Informatica Libera
   img: oil.png
-  category: Linux
   description: Associazione per la promozione di Linux e del riuso dell'hardware. Dal 2009 mantiene lo sportello gratuito di assistenza informatica, tutti i mercoledi sera dalle 18:00 alle 20:00 c/o Casa del Quartiere.
   url: http://informaticalibera.info/
   fbpage: OfficinaInformaticaLibera
 
 - title: Linux Day Torino
   img: ldto.png
-  category: Linux
   description: Collettivo informale principalmente dedicato all'organizzazione dell'edizione torinese del Linux Day
   url: http://linuxdaytorino.org/
   fbpage: LinuxDayTorino
@@ -15,7 +13,6 @@
 
 - title: CoderDojo Torino
   img: coderdojotorino.png
-  category: CoderDojo
   description: Il primo CoderDojo di Torino
   url: http://coderdojotorino.it/
   source-eventbrite: 8035777426
@@ -23,7 +20,6 @@
 
 - title: CoderDojo Torino2
   img: coderdojotorino2.png
-  category: CoderDojo
   description: CoderDojo attivo a Torino Sud
   url: http://www.coderdojotorino2.it/
   source-eventbrite: 8085500065
@@ -31,7 +27,6 @@
 
 - title: CoderDojo UpTo
   img: coderdojoupto.png
-  category: CoderDojo
   description: Il più recente CoderDojo a Torino
   url: http://www.coderdojoupto.com/
   source-eventbrite: 8510744081
@@ -39,7 +34,6 @@
 
 - title: PUG Torino
   img: pugto.png
-  category: Programmazione
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://torino.grusp.org/
   fbpage: PugTorino
@@ -47,7 +41,6 @@
 
 - title: Torino JS
   img: torinojs.png
-  category: Programmazione
   description: Eventi occasionali su Javascript, NodeJS, IoT e tecnologie opensource
   url: http://torino.js.org/
   source-eventbrite: 3946899241
@@ -55,7 +48,6 @@
 
 - title: FabLab Torino
   img: fablab.png
-  category: Making
   description: Il PHP Users Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
   url: http://fablabtorino.org/
   source-eventbrite: 3147853804
@@ -63,7 +55,6 @@
 
 - title: DataBeers Torino
   img: databeers.png
-  category: OpenData
   description: Meeting informali presso cui parlare di opendata, bigdata, analisi e visualizzazioni davanti ad una birra
   url: http://databeerstorino.tumblr.com/
   source-eventbrite: 6821104823
@@ -71,14 +62,12 @@
 
 - title: Museo Piemontese dell'Informatica
   img: mupin.png
-  category: Cultura
   description: Associazione per la promozione di attività culturali scientifico/tecnologiche
   url: http://www.mupin.it/
   twitter: Mupin_It
 
 - title: JUG Torino
   img: jugto.png
-  category: Programmazione
   description: Il Java Users Group (JUG) di Torino organizza incontri occasionali per approfondire le ultime novità sullo sviluppo con Java (e non solo!)
   url: http://jugtorino.it/
   source-meetup: JUGTorino
@@ -86,7 +75,6 @@
 
 - title: Meetup Bitcoin Torino
   img: bitcoin.png
-  category: Cultura
   description: Un gruppo di appassionati del settore di cryptovalute e reti distribuite che si ritrova per condividere informazioni, progetti e ricerche
   url: http://www.meetup.com/Meetup-Bitcoin-Torino/
   source-meetup: Meetup-Bitcoin-Torino
@@ -94,7 +82,6 @@
 
 - title: Wordpress Meetup Torino
   img: wordpress.png
-  category: Programmazione
   description: Il posto dove andare se usi WordPress, vorresti usare WordPress ma non sai da dove iniziare, ti hanno fatto un sito in WordPress ma non lo sai usare.
   url: http://www.meetup.com/WordPress-Meetup-Torino/
   source-meetup: WordPress-Meetup-Torino
@@ -102,7 +89,6 @@
 
 - title: Torino HackNight
   img: tohacknight.jpg
-  category: Programmazione
   description: Gruppo di lavoro periodico per lavorare insieme su progetti opensource
   url: http://torino.hacknight.it
   source-eventbrite: 9053329779
@@ -110,21 +96,18 @@
 
 - title: Torino IoT Meetup
   img: iot.png
-  category: Making
   description: Building a community to discuss and share ideas on IoT technologies, Design, Open-source, maker culture etc... Come and visit us at Casa Jasmina.
   url: http://www.meetup.com/Torino-IoT-Meetup/
   source-meetup: Torino-IoT-Meetup
 
 - title: Torino Scala Programming Big Data Meetup
   img: scala.png
-  category: Programmazione
   description: Questo gruppo è per tutti coloro che usano abitualmente o vogliono imparare il linguaggio di programmazione Scala e affacciarsi nel mondo dei big data.
   url: http://www.meetup.com/Torino-Scala-Programming-Big-Data-Meetup/
   source-meetup: Torino-Scala-Programming-Big-Data-Meetup
 
 - title: Toolbox Coworking
   img: toolbox.png
-  category: Cultura
   description: Toolbox offre spazi, servizi e soluzioni per il lavoro autonomo, al centro di un'area strategica per lo sviluppo delle nuove professionalità a Torino.
   url: https://toolboxcoworking.wordpress.com/
   source-eventbrite: 2882655319
@@ -132,28 +115,24 @@
 
 - title: Torino Coding Society
   img: codingsociety.png
-  category: Programmazione
   description: L'appuntamento mondano degli sviluppatori torinesi
   url: http://torinocodingsociety.it/
   source-eventbrite: 4690925219
 
 - title: Prestashop Torino Ecommerce Meetup
   img: prestashop.jpeg
-  category: E-Commerce
   description: PrestaShop è un software e-commerce open source dedicato a tecnologie innovative e studiato per fornire successo on-line a commercianti e sviluppatori. Desideriamo far crescere sempre di più la nostra comunità e raggiungere tutti gli appassionati di e-commerce.
   url: http://www.meetup.com/it-IT/PrestaShop-Torino-Ecommerce-Meetup/
   source-meetup: PrestaShop-Torino-Ecommerce-Meetup
 
 - title: Django Girls Turin
   img: djangogirls.png
-  category: Programmazione
   description: Workshop di programmazione per ragazze
   url: https://djangogirls.org/turin
   twitter: djangogirlsit
 
 - title: Turin Web Performance Group
   img: webperformance.png
-  category: Programmazione
   description: Vediamo ogni mese qualche tecnica di ottimizzazione delle prestazioni di velocità di siti web lenti e delle best practice, in modo che i siti web che andrai a realizzare rispondano velocemente ai bisogni dei tuoi utenti.
   url: http://www.meetup.com/it-IT/Turin-Web-Performance-Group/
   source-meetup: Turin-Web-Performance-Group
@@ -161,21 +140,18 @@
 
 - title: Machine Learning Meetup Torino
   img: machinelearning.png
-  category: Programmazione
   description: Attorno al mondo dell'intelligenza artificiale sta nascendo sempre più fermento, ora che tutte le grandi società tecnologiche la usano per potenziare l'efficacia dei propri algoritmi.
   url: http://www.meetup.com/it-IT/Machine-Learning-TO/
   source-meetup: Machine-Learning-TO
 
 - title: Open Source Saturday
   img: oss.png
-  category: Programmazione
   description: Hai un progetto Open Source sul quale vorresti lavorare con altri? Avresti sempre voluto partecipare ad un progetto Open Source ma non l'hai mai fatto? Vorresti lavorare con altre persone per poterti scambiare i segreti del mestiere? Benvenuto!
   url: https://www.meetup.com/it-IT/open-source-saturday-torino/
   source-meetup: open-source-saturday-torino
 
 - title: Turn into Coders
   img: turnintocoders.png
-  category: Coding Bootcamp
   description: Diventa programmatore web, Turn into coders è un programma di formazione intensivo di 8 settimane da urlo che ti farà imparare JavaScript per bene e ti renderà capace di addentrarti nel mondo dei programmatori.
   url: https://turnintocoders.it/
   source-meetup: turn-into-coders
@@ -184,7 +160,6 @@
   
 - title: Torino .NET user group
   img: torinonet.png
-  category: Programmazione
   description: Chiacchiere, spunti e approfondimenti su .NET Framework. Scambio di idee ed esperienze sulle tecnologie adottate in ambito professionale Microsoft e non, closed e open source.
   url: https://www.meetup.com/it-IT/preview/Torino-NET-User-Group
   source-meetup: Torino-NET-User-Group
@@ -192,7 +167,6 @@
 
 - title: Agile Community Torino
   img: agile.png
-  category: Programmazione
   description: Community per la condivisione e la diffusione di un approccio Agile e Lean allo sviluppo di prodotti e servizi.
   url: http://agile.to.it/
   source-meetup: Agile-Community-Torino
