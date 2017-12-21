@@ -158,7 +158,7 @@
   source-meetup: turn-into-coders
   twitter: turnintocoders
   fbpage: turnintocoders
-  
+
 - title: Torino .NET user group
   img: torinonet.png
   description: Chiacchiere, spunti e approfondimenti su .NET Framework. Scambio di idee ed esperienze sulle tecnologie adottate in ambito professionale Microsoft e non, closed e open source.
@@ -171,3 +171,11 @@
   description: Community per la condivisione e la diffusione di un approccio Agile e Lean allo sviluppo di prodotti e servizi.
   url: http://agile.to.it/
   source-meetup: Agile-Community-Torino
+
+- title: GDG Torino
+  img: gdg.png
+  category: Programmazione
+  description: Il Google Developer Group (GDG) Torino si propone come punto di incontro locale per gli appassionati di tecnologia, social media e open innovation. Lo scopo è quello di creare una community dove le persone sono libere di condividere le proprie idee, le proprie conoscenze ed esperienze.
+  url: https://www.meetup.com/GDG-Torino
+  source-meetup: GDG-Torino
+
