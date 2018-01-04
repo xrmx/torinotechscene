@@ -41,11 +41,14 @@ foreach($events as $event) {
 	$append_url = sprintf(' - %s', $event['link']);
 
 	$append = '';
-	$group = groupByName($event['host']);
-	if ($group != null && isset($group['twitter']))
-		$append .= sprintf(' /cc @' . $group['twitter']);
 
-	$limit = 140 - (strlen($date) + $url_length + strlen($append));
+	if (isset($event['host'])) {
+		$group = groupByName($event['host']);
+		if ($group != null && !empty($group) && isset($group['twitter']))
+			$append .= sprintf(' /cc @' . $group['twitter']);
+	}
+
+	$limit = 280 - (strlen($date) + $url_length + strlen($append));
 	$title = substr($event['title'], 0, $limit);
 
 	$tweet = sprintf('%s%s%s%s', $date, $title, $append_url, $append);
