@@ -82,10 +82,32 @@ function futureEvents() {
         return $ret;
 }
 
+function findDuplicatedEvent($hash) {
+        $files = array_diff(scandir('_posts/'), ['..', '.']);
+
+        foreach($files as $f) {
+                if (strpos($f, $hash) !== false)
+                        return $f;
+        }
+
+        return false;
+}
+
 function saveEvent($object) {
+        $hash = sha1($object->url);
         $slug = slugify($object->title);
         $date = date('Y-m-d', $object->time);
-        $filename = sprintf('_posts/%s-%s.markdown', $date, $slug);
+
+        /*
+                Per evitare di duplicare eventi che vengono rinominati mettiamo l'hash
+                nel nome per poterlo ricercare. Se lo troviamo riscriviamo quel post
+                piuttosto che crearne uno nuovo.
+         */
+        $oldpost = findDuplicatedEvent($hash);
+        if ($oldpost === false)
+                $filename = sprintf('_posts/%s-%s-$s.markdown', $date, $slug, $hash);
+        else
+                $filename = sprintf('_posts/%s', $oldpost);
 
         /*
                 A YAML non sembrano piacere i due punti...
