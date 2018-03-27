@@ -179,3 +179,9 @@
   url: https://www.meetup.com/GDG-Torino
   source-meetup: GDG-Torino
 
+- title: Rust Torino
+  img: rust.png
+  category: Programmazione
+  description: Eventi, gruppi di studio e workshop di Rust a Torino.
+  url: https://www.meetup.com/it-IT/Rust-Torino/
+  source-meetup: Rust-Torino
