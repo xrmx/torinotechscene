@@ -140,7 +140,7 @@
   twitter: trnwebperf
 
 - title: Machine Learning Meetup Torino
-  img: machinelearning.png
+  img: machinelearning.jpeg
   description: Attorno al mondo dell'intelligenza artificiale sta nascendo sempre più fermento, ora che tutte le grandi società tecnologiche la usano per potenziare l'efficacia dei propri algoritmi.
   url: http://www.meetup.com/it-IT/Machine-Learning-TO/
   source-meetup: Machine-Learning-TO
@@ -185,3 +185,11 @@
   description: Eventi, gruppi di studio e workshop di Rust a Torino.
   url: https://www.meetup.com/it-IT/Rust-Torino/
   source-meetup: Rust-Torino
+
+- title: Python Torino
+  img: python.png
+  category: Programmazione
+  description: Meetup per sviluppatrici, sviluppatori e curiosi su Python a Torino e dintorni.
+  url: https://www.meetup.com/it-IT/Python-Torino/
+  source-meetup: Python-Torino
+  twitter: PythonTorino
