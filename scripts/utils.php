@@ -18,6 +18,21 @@ function doGet($url) {
         return $resp;
 }
 
+function doPost($url, $data) {
+	$curl = curl_init();
+	curl_setopt_array($curl, array(
+		CURLOPT_RETURNTRANSFER => 1,
+		CURLOPT_URL => $url,
+		CURLOPT_USERAGENT => 'TorinoTechScene',
+		CURLOPT_POST => 1,
+		CURLOPT_POSTFIELDS => $data
+	));
+
+	$resp = curl_exec($curl);
+	curl_close($curl);
+	return $resp;
+}
+
 function readHostedGroups() {
         $data = Yaml::parse(file_get_contents('_data/groups.yml'));
         return $data;
