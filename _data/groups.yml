@@ -25,13 +25,6 @@
   source-eventbrite: 8085500065
   twitter: CoderDojoTo2
 
-- title: CoderDojo UpTo
-  img: coderdojoupto.png
-  description: Il più recente CoderDojo a Torino
-  url: http://www.coderdojoupto.com/
-  source-eventbrite: 8510744081
-  twitter: CoderDojoUpTo
-
 - title: PUG Torino
   img: pugto.png
   description: Il PHP User Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
@@ -39,13 +32,6 @@
   fbpage: PugTorino
   twitter: PUGTorino
   source-meetup: pugTO-PHP-User-Group-Torino
-
-- title: Torino JS
-  img: torinojs.png
-  description: Eventi occasionali su Javascript, NodeJS, IoT e tecnologie opensource
-  url: http://torino.js.org/
-  source-eventbrite: 3946899241
-  twitter: torinojs
 
 - title: FabLab Torino
   img: fablab.png
@@ -60,12 +46,6 @@
   url: http://databeerstorino.tumblr.com/
   source-eventbrite: 6821104823
   twitter: databeerstorino
-
-- title: Museo Piemontese dell'Informatica
-  img: mupin.png
-  description: Associazione per la promozione di attività culturali scientifico/tecnologiche
-  url: http://www.mupin.it/
-  twitter: Mupin_It
 
 - title: JUG Torino
   img: jugto.png
@@ -125,12 +105,6 @@
   description: PrestaShop è un software e-commerce open source dedicato a tecnologie innovative e studiato per fornire successo on-line a commercianti e sviluppatori. Desideriamo far crescere sempre di più la nostra comunità e raggiungere tutti gli appassionati di e-commerce.
   url: http://www.meetup.com/it-IT/PrestaShop-Torino-Ecommerce-Meetup/
   source-meetup: PrestaShop-Torino-Ecommerce-Meetup
-
-- title: Django Girls Turin
-  img: djangogirls.png
-  description: Workshop di programmazione per ragazze
-  url: https://djangogirls.org/turin
-  twitter: djangogirlsit
 
 - title: Turin Web Performance Group
   img: webperformance.png
