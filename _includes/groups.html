@@ -13,18 +13,18 @@
                 {% assign last_event = site.posts reversed | where:'host', group.title | first %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
                     <a class="portfolio-link" href="{{ group.url }}">
-                          <div class="portfolio-hover">
+                        <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                              <h5>{{group.title}}</h5>
-                              {% if last_event %}
-                              <p>{{ last_event.date | date: '%d/%m/%y' }} &mdash; {{ last_event.title }}</p>
-                              {% endif %}
+                                <h5>{{group.title}}</h5>
+                                {% if last_event %}
+                                <p>{{ last_event.date | date: '%d/%m/%y' }} &mdash; {{ last_event.title }}</p>
+                                {% endif %}
                             </div>
-                          </div>
+                        </div>
                         <img src="img/groups/{{ group.img }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                      <h4>{{group.title}}</h4>
+                        <h4>{{group.title}}</h4>
                     </div>
                 </div>
             {% endfor %}
