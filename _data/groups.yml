@@ -153,12 +153,12 @@
   url: https://www.meetup.com/GDG-Torino
   source-meetup: GDG-Torino
 
-- title: Rust Torino
-  img: rust.png
+- title: Mozilla Torino
+  img: mozilla.png
   category: Programmazione
-  description: Eventi, gruppi di studio e workshop di Rust a Torino.
-  url: https://www.meetup.com/it-IT/Rust-Torino/
-  source-meetup: Rust-Torino
+  description: Eventi, gruppi di studio e workshop relativi alle iniziative Mozilla.
+  url: https://www.meetup.com/it-IT/Mozilla-Torino/
+  source-meetup: Mozilla-Torino
 
 - title: Python Torino
   img: python.png
