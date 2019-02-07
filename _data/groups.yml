@@ -1,22 +1,9 @@
-- title: Officina Informatica Libera
-  img: oil.png
-  description: Associazione per la promozione di Linux e del riuso dell'hardware. Dal 2009 mantiene lo sportello gratuito di assistenza informatica, tutti i mercoledi sera dalle 18:00 alle 20:00 c/o Casa del Quartiere.
-  url: http://informaticalibera.info/
-  fbpage: OfficinaInformaticaLibera
-
 - title: Linux Day Torino
   img: ldto.png
   description: Collettivo informale principalmente dedicato all'organizzazione dell'edizione torinese del Linux Day
   url: http://linuxdaytorino.org/
   fbpage: LinuxDayTorino
   twitter: LinuxDayTorino
-
-- title: CoderDojo Torino
-  img: coderdojotorino.png
-  description: Il primo CoderDojo di Torino
-  url: http://coderdojotorino.it/
-  source-eventbrite: 8035777426
-  twitter: coderdojo_to
 
 - title: CoderDojo Torino2
   img: coderdojotorino2.png
@@ -100,12 +87,6 @@
   url: http://torinocodingsociety.it/
   source-eventbrite: 4690925219
 
-- title: Prestashop Torino Ecommerce Meetup
-  img: prestashop.jpeg
-  description: PrestaShop è un software e-commerce open source dedicato a tecnologie innovative e studiato per fornire successo on-line a commercianti e sviluppatori. Desideriamo far crescere sempre di più la nostra comunità e raggiungere tutti gli appassionati di e-commerce.
-  url: http://www.meetup.com/it-IT/PrestaShop-Torino-Ecommerce-Meetup/
-  source-meetup: PrestaShop-Torino-Ecommerce-Meetup
-
 - title: Turin Web Performance Group
   img: webperformance.png
   description: Vediamo ogni mese qualche tecnica di ottimizzazione delle prestazioni di velocità di siti web lenti e delle best practice, in modo che i siti web che andrai a realizzare rispondano velocemente ai bisogni dei tuoi utenti.
@@ -159,14 +140,6 @@
   description: Eventi, gruppi di studio e workshop relativi alle iniziative Mozilla.
   url: https://www.meetup.com/it-IT/Mozilla-Torino/
   source-meetup: Mozilla-Torino
-
-- title: Python Torino
-  img: python.png
-  category: Programmazione
-  description: Meetup per sviluppatrici, sviluppatori e curiosi su Python a Torino e dintorni.
-  url: https://www.meetup.com/it-IT/Python-Torino/
-  source-meetup: Python-Torino
-  twitter: PythonTorino
 
 - title: Become a Game Developer
   img: bagd.png
