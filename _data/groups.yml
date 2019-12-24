@@ -149,3 +149,16 @@
   fbpage: https://www.facebook.com/becomeagamedeveloper
   source-meetup: Become-A-Game-Developer
 
+- title: Python Torino
+  img: pyto.png
+  description: Meetup per sviluppatrici, sviluppatori e curiosi su Python a Torino e dintorni.
+  url: https://www.meetup.com/it-IT/Python-Torino/
+  source-meetup: Python-Torino
+  twitter: PythonTorino
+
+- title: Coding Gym Torino
+  img: codinggym.png
+  description: Una palestra per allenarsi risolvendo in coppia esercizi di programmazione discutendo della propria soluzione con gli altri partecipanti.
+  url: https://coding-gym.org/locations/turin/
+  source-eventbrite: 16859146671
+  eb-filter-title: Coding Gym Torino

@@ -19,6 +19,14 @@ foreach($groups as $group) {
                 $resp = json_decode($resp);
 
                 foreach($resp->events as $event) {
+                        /* Permettiamo di filtrare gli eventi in base ad un testo presente nel titolo.
+                         * Utile quando usiamo lo stesso account per location diverse */
+                        if (isset($group['eb-filter-title'])) {
+                                if (strpos($event->name->text, $group['eb-filter-title']) === FALSE) {
+                                        continue;
+                                }
+                        }
+
                         $url = sprintf("https://www.eventbriteapi.com/v3/venues/%s/?token=%s", $event->venue_id, $token);
                         $venue_resp = doGet($url);
                         $venue_resp = json_decode($venue_resp);
