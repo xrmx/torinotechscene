@@ -14,7 +14,7 @@ $groups = readHostedGroups();
 
 foreach($groups as $group) {
         if (isset($group['source-eventbrite'])) {
-                $url = sprintf("https://www.eventbriteapi.com/v3/events/search/?token=%s&organizer.id=%s", $token, $group['source-eventbrite']);
+                $url = sprintf("https://www.eventbriteapi.com/v3/organizations/%s/events/?token=%s", $group['source-eventbrite'], $token);
                 $resp = doGet($url);
                 $resp = json_decode($resp);
 
