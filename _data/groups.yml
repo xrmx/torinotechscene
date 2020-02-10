@@ -22,7 +22,7 @@
 
 - title: FabLab Torino
   img: fablab.png
-  description: Il PHP Users Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
+  description: L'Associazione Fablab Torino offre a tutti i suoi associati l'opportunità di apprendere processi e tecnologie legate alla prototipazione rapida, IoT e molto altro.
   url: http://fablabtorino.org/
   source-eventbrite: 3147853804
   twitter: Fablabtorino
@@ -68,7 +68,7 @@
   url: http://www.meetup.com/Torino-IoT-Meetup/
   source-meetup: Torino-IoT-Meetup
 
-- title: Torino Scala Programming Big Data Meetup
+- title: Big Data & Scala Torino
   img: scala.png
   description: Questo gruppo è per tutti coloro che usano abitualmente o vogliono imparare il linguaggio di programmazione Scala e affacciarsi nel mondo dei big data.
   url: http://www.meetup.com/Torino-Scala-Programming-Big-Data-Meetup/
@@ -77,7 +77,7 @@
 - title: Toolbox Coworking
   img: toolbox.png
   description: Toolbox offre spazi, servizi e soluzioni per il lavoro autonomo, al centro di un'area strategica per lo sviluppo delle nuove professionalità a Torino.
-  url: https://toolboxcoworking.wordpress.com/
+  url: https://www.toolboxoffice.it/
   source-eventbrite: 2882655319
   twitter: tlbxcoworking
 
