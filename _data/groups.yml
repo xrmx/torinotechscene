@@ -162,3 +162,10 @@
   url: https://coding-gym.org/locations/turin/
   source-eventbrite: 16859146671
   eb-filter-title: Coding Gym Torino
+
+- title: CNCF Turin
+  img: cncf.png
+  description: Meetup dedicato a cloud computing e tools parte della Cloud Native Computing Foundation come Kubernetes, Opentracing, containerd, Envoy...
+  url: https://devcampy.com
+  source-meetup: CNCF-Italy
+  twitter: dev_campy
