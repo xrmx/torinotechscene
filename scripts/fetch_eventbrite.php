@@ -77,10 +77,18 @@ foreach($groups as $group) {
 
                         foreach ($entries as $entry) {
                                 try {
+                                        $title = textByNode($xpath, $entry, 'list-card__title');
+
+                                        /* Facciamo filtrare gli eventi in base ad un testo nel titolo:
+                                         * utile quando usiamo lo stesso account per location diverse */
+                                        $filter = isset($group['eb-filter-title']) && $group['eb-filter-title'];
+                                        if ($filter && strpos($title, $filter) === FALSE)
+                                                    continue;
+
                                         $url = $entry->getAttribute('href');
 
                                         $obj = (object) [
-                                                'title' => textByNode($xpath, $entry, 'list-card__title'),
+                                                'title' => $title,
                                                 'content' => manageContents($url),
                                                 'time' => manageDate(textByNode($xpath, $entry, 'list-card__date')),
                                                 'location' => textByNode($xpath, $entry, 'list-card__venue'),
