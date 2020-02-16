@@ -22,7 +22,7 @@
 
 - title: FabLab Torino
   img: fablab.png
-  description: Il PHP Users Group (PUG) di Torino è un gruppo di appassionati del PHP, uno dei linguaggi di programmazione open source più utilizzati sul web
+  description: L'Associazione Fablab Torino offre a tutti i suoi associati l'opportunità di apprendere processi e tecnologie legate alla prototipazione rapida, IoT e molto altro.
   url: http://fablabtorino.org/
   source-eventbrite: 3147853804
   twitter: Fablabtorino
@@ -55,7 +55,7 @@
   source-meetup: WordPress-Meetup-Torino
   twitter: wptorino
 
-- title: Torino HackNight
+- title: Torino Hacknight
   img: tohacknight.jpg
   description: Gruppo di lavoro periodico per lavorare insieme su progetti opensource
   url: http://torino.hacknight.it
@@ -68,7 +68,7 @@
   url: http://www.meetup.com/Torino-IoT-Meetup/
   source-meetup: Torino-IoT-Meetup
 
-- title: Torino Scala Programming Big Data Meetup
+- title: Big Data & Scala Torino
   img: scala.png
   description: Questo gruppo è per tutti coloro che usano abitualmente o vogliono imparare il linguaggio di programmazione Scala e affacciarsi nel mondo dei big data.
   url: http://www.meetup.com/Torino-Scala-Programming-Big-Data-Meetup/
@@ -77,7 +77,7 @@
 - title: Toolbox Coworking
   img: toolbox.png
   description: Toolbox offre spazi, servizi e soluzioni per il lavoro autonomo, al centro di un'area strategica per lo sviluppo delle nuove professionalità a Torino.
-  url: https://toolboxcoworking.wordpress.com/
+  url: https://www.toolboxoffice.it/
   source-eventbrite: 2882655319
   twitter: tlbxcoworking
 
@@ -99,12 +99,6 @@
   description: Attorno al mondo dell'intelligenza artificiale sta nascendo sempre più fermento, ora che tutte le grandi società tecnologiche la usano per potenziare l'efficacia dei propri algoritmi.
   url: http://www.meetup.com/it-IT/Machine-Learning-TO/
   source-meetup: Machine-Learning-TO
-
-- title: Open Source Saturday
-  img: oss.png
-  description: Hai un progetto Open Source sul quale vorresti lavorare con altri? Avresti sempre voluto partecipare ad un progetto Open Source ma non l'hai mai fatto? Vorresti lavorare con altre persone per poterti scambiare i segreti del mestiere? Benvenuto!
-  url: https://www.meetup.com/it-IT/open-source-saturday-torino/
-  source-meetup: open-source-saturday-torino
 
 - title: Turn into Coders
   img: turnintocoders.png
@@ -169,3 +163,9 @@
   url: https://devcampy.com
   source-meetup: CNCF-Italy
   twitter: dev_campy
+
+- title: Torino Technologies Group
+  img: ttg.png
+  description: Torino Technologies Group è una community che consente occasioni di incontro e scambio di esperienze tra chi sviluppa soluzioni usando tecnologie Microsoft (e non solo)
+  url: http://www.torinotechnologiesgroup.it/
+  source-eventbrite: 18050246411
