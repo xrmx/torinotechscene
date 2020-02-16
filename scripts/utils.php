@@ -10,7 +10,8 @@ function doGet($url) {
         curl_setopt_array($curl, array(
                 CURLOPT_RETURNTRANSFER => 1,
                 CURLOPT_URL => $url,
-                CURLOPT_USERAGENT => 'TorinoTechScene'
+                CURLOPT_USERAGENT => 'TorinoTechScene',
+                CURLOPT_FOLLOWLOCATION => true,
         ));
 
         $resp = curl_exec($curl);
