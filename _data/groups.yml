@@ -157,6 +157,13 @@
   source-eventbrite: 16859146671
   eb-filter-title: Coding Gym Torino
 
+- title: CNCF Turin
+  img: cncf.png
+  description: Meetup dedicato a cloud computing e tools parte della Cloud Native Computing Foundation come Kubernetes, Opentracing, containerd, Envoy...
+  url: https://devcampy.com
+  source-meetup: CNCF-Italy
+  twitter: dev_campy
+
 - title: Torino Technologies Group
   img: ttg.png
   description: Torino Technologies Group è una community che consente occasioni di incontro e scambio di esperienze tra chi sviluppa soluzioni usando tecnologie Microsoft (e non solo)
