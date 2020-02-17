@@ -169,3 +169,9 @@
   description: Torino Technologies Group è una community che consente occasioni di incontro e scambio di esperienze tra chi sviluppa soluzioni usando tecnologie Microsoft (e non solo)
   url: http://www.torinotechnologiesgroup.it/
   source-eventbrite: 18050246411
+
+- title: AWS User Group Torino
+  img: aws.png
+  description: AWS (Amazon Web Services) User Group Torino è dedicato agli appassionati di cloud, big & smart data, intelligenza artificiale e IOT, in particolare sulle tecnologie AWS.
+  url: https://www.meetup.com/it-IT/AWS-User-Group-Torino
+  source-meetup: AWS-User-Group-Torino
