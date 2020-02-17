@@ -181,3 +181,9 @@
   description: Questo gruppo si prefigge lo scopo di diventare un punto di aggregazione per condividere esperienze, studi e pensieri circa la cultura e le pratiche DevOps per poter giungere insieme a una migliore comprensione che ci possa aiutare a portare questo approccio nel nostro lavoro in ambito IT.
   url: https://www.meetup.com/it-IT/Torino-DevOps-Meetup-Group-Culture-Processes-and-Tools/
   source-meetup: Torino-DevOps-Meetup-Group-Culture-Processes-and-Tools
+
+- title: Golang Torino
+  img: golang.png
+  description: In questo gruppo vogliamo riunire gli appassionati del linguaggio Go per diffondere e approfondire le tecniche implementative.
+  url: https://www.meetup.com/it-IT/Golang-Torino/
+  source-meetup: Golang-Torino
