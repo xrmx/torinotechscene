@@ -21,20 +21,21 @@ function textByNode($xpath, $node, $class)
 
 /*
         Le date su Eventbrite sono nel formato
-        sab, 14 mar 10:00
+        sab, 27 mar 2021 10:00
         Ovvero:
         - giorno della settimana (non utile)
         - giorno del mese
         - mese, espresso con tre caratteri
+        - anno
         - ora
 */
 function manageDate($date)
 {
         $date = str_replace("\n", ' ', $date);
-        preg_match('/^([a-z]{3,}), *([0-9]{1,2}) *([a-z]{3,}) *([0-9:]*)$/', strtolower($date), $matches);
+        preg_match('/^([a-z]{3,}), *([0-9]{1,2}) *([a-z]{3,}) *([a-z]{4}) *([0-9:]*)$/', strtolower($date), $matches);
         $day = $matches[2];
-        $year = date('Y');
-        $hour = $matches[4];
+        $year = $matches[4];
+        $hour = $matches[5];
 
         $months = ['', 'gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
         $month = array_search($matches[3], $months);
@@ -73,11 +74,11 @@ foreach($groups as $group) {
                         $doc->loadHTML($resp, LIBXML_NOERROR | LIBXML_NOWARNING);
                         $xpath = new DOMXPath($doc);
 
-                        $entries = $xpath->query('//*[@id="live_events"]/div/a[contains(@class, "list-card__main")]');
+                        $entries = $xpath->query('//[contains(@class, "eds-event-card-content__primary-content")]//a[contains(@class, "eds-event-card-content__action-link")]');
 
                         foreach ($entries as $entry) {
                                 try {
-                                        $title = textByNode($xpath, $entry, 'list-card__title');
+                                        $title = textByNode($xpath, $entry, 'eds-event-card__formatted-name--is-clamped');
 
                                         /* Facciamo filtrare gli eventi in base ad un testo nel titolo:
                                          * utile quando usiamo lo stesso account per location diverse */
@@ -90,8 +91,8 @@ foreach($groups as $group) {
                                         $obj = (object) [
                                                 'title' => $title,
                                                 'content' => manageContents($url),
-                                                'time' => manageDate(textByNode($xpath, $entry, 'list-card__date')),
-                                                'location' => textByNode($xpath, $entry, 'list-card__venue'),
+                                                'time' => manageDate(textByNode($xpath, $entry, 'eds-evet-card-content__sub-title')),
+                                                'location' => '',
                                                 'url' => $url,
                                                 'group' => $group
                                         ];
